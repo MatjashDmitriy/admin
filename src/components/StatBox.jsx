@@ -1,4 +1,4 @@
-import { TextIncreaseSharp } from "@mui/icons-material";
+
 import { Box, Typography, useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import ProgressCircle from "./ProgressCircle";
@@ -12,6 +12,7 @@ const StatBox = ({title, subtitle, icon, progress, increase }) => {
             <Box display='flex' justifyContent='space-between' >
                 <Box>
                     {icon}
+                    
                     <Typography variant="h4" fontWeight='bold' sx={{color: colors.gray[100]}}>
                         {title}
                     </Typography>
