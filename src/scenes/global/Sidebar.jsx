@@ -85,7 +85,7 @@ const Sidebar = () => {
                                 {!isCollapsed && (
                                     <Box display='flex' justifyContent='space-between' alignItems='center' ml="15px" >
                                         <Typography variant="h4" color={colors.gray[100]}>
-                                            ADMIN
+                                            ADMINS
                                         </Typography>
 
                                         <IconButton onClick={() => setIsCollapsed(!isCollapsed)} >
