@@ -112,7 +112,7 @@ const Sidebar = () => {
                                 </Box>
 
                                 <Box textAlign='center'>
-                                    <Typography variant="h2" color={colors.gray[100]} fontWeight='bold' sx={{m:'10px 0 0 0'}} >Bo Cruz</Typography>
+                                    <Typography variant="h2" color={colors.gray[100]} fontWeight='bold' sx={{m:'10px 0 0 0'}} >Cruz</Typography>
                                     <Typography variant="h5" color={colors.greenAccent[500]} >Co-founder cryptocurrency exchange</Typography>
                                 </Box>
                             </Box>
