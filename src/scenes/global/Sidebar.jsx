@@ -102,7 +102,7 @@ const Sidebar = () => {
 
                                 
                                     <img
-                                        src="../../assets/user.png"
+                                        src="/assets/user.png"
                                         alt="profile-user"
                                         width='100px'
                                         height='100px'
