@@ -16,6 +16,7 @@ import PieChartOutlineOutlinedIcon  from '@mui/icons-material/PieChartOutlineOut
 import TimelineOutlinedIcon  from '@mui/icons-material/TimelineOutlined';
 import MenuOutlinedIcon  from '@mui/icons-material/MenuOutlined';
 import MapOutlinedIcon  from '@mui/icons-material/MapOutlined';
+import user from './../../assets/user.png'
 
 // import './Global.css'
 
@@ -85,7 +86,7 @@ const Sidebar = () => {
                                 {!isCollapsed && (
                                     <Box display='flex' justifyContent='space-between' alignItems='center' ml="15px" >
                                         <Typography variant="h4" color={colors.gray[100]}>
-                                            ADMINS
+                                            ADMIN
                                         </Typography>
 
                                         <IconButton onClick={() => setIsCollapsed(!isCollapsed)} >
@@ -105,14 +106,15 @@ const Sidebar = () => {
                                         alt="profile-user"
                                         width='100px'
                                         height='100px'
-                                        src={`/assets/user.png`}
+                                        // src={`./../../public/assets/user.png`}
+                                        src={user}
                                         style={{cursor:'pointer', borderRadius:'50%'}}
                                     />
                                     
                                 </Box>
 
                                 <Box textAlign='center'>
-                                    <Typography variant="h2" color={colors.gray[100]} fontWeight='bold' sx={{m:'10px 0 0 0'}} >Cruz</Typography>
+                                    <Typography variant="h2" color={colors.gray[100]} fontWeight='bold' sx={{m:'10px 0 0 0'}} >Bo Cruz</Typography>
                                     <Typography variant="h5" color={colors.greenAccent[500]} >Co-founder cryptocurrency exchange</Typography>
                                 </Box>
                             </Box>
